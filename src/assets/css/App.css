@@ -1,0 +1,97 @@
+button {
+  background-color: transparent;
+  border: none;
+}
+
+/* Search */
+
+.search-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-bottom: solid #dcdcdc 2px;
+}
+
+.search-nav input {
+  width: 20em;
+  height: 3em;
+  border-radius: 8px;
+  font-size: 1em;
+  padding-left: 6px;
+}
+
+.search-nav input:hover {
+  border: solid rgb(56, 136, 145) 2px;
+}
+
+.icon-search {
+  background-image: url("../icons/search.svg");
+  display: block;
+  width: 2em;
+  height: 2em;
+}
+
+/* Photos */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2em;
+}
+
+.photo {
+  font-size: 0.8em;
+  margin: 1em;
+}
+
+img {
+  margin: 0.5em;
+  border-radius: 10px;
+}
+
+/* Pagination */
+
+.pagination-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5em;
+  margin: 1em;
+}
+
+.icon-prev {
+  background-image: url("../icons/prev.svg");
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.icon-next {
+  background-image: url("../icons/next.svg");
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+nav li {
+  list-style: none;
+}
+
+.num {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 0.8em;
+}
+
+.active {
+  border: solid rgb(56, 136, 145) 2px;
+  border-radius: 15px;
+  width: 1em;
+}
