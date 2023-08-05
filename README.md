@@ -27,8 +27,8 @@
 
 ![Photo gallery][product-screenshot]
 
-This is a photo gallery built with [Create React App](https://create-react-app.dev/) and the [Pexel API](https://www.pexels.com/api/)
-[View Demo]([url](https://photo-book-07311106.netlify.app/))
+This is a photo gallery built with [Create React App](https://create-react-app.dev/) and the [Pexel API](https://www.pexels.com/api/) <br /> 
+<a href="https://photo-book-07311106.netlify.app/">View Demo</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
